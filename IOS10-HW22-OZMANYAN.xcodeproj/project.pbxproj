@@ -27,6 +27,12 @@
 		CE343EED2ACF30D100A31403 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EEC2ACF30D100A31403 /* DetailPresenter.swift */; };
 		CE343EEF2ACF30EB00A31403 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EEE2ACF30EB00A31403 /* DetailRouter.swift */; };
 		CE343EF12ACF311200A31403 /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EF02ACF311200A31403 /* TextFieldCell.swift */; };
+		CE343EF42ACF317200A31403 /* UserBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EF32ACF317200A31403 /* UserBuilder.swift */; };
+		CE343EF62ACF318C00A31403 /* UserProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EF52ACF318C00A31403 /* UserProtocol.swift */; };
+		CE343EF82ACF31A400A31403 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EF72ACF31A400A31403 /* UserCell.swift */; };
+		CE343EFA2ACF31C500A31403 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EF92ACF31C500A31403 /* UserView.swift */; };
+		CE343EFC2ACF31ED00A31403 /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EFB2ACF31ED00A31403 /* UserPresenter.swift */; };
+		CE343EFE2ACF320900A31403 /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EFD2ACF320900A31403 /* UserRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +58,12 @@
 		CE343EEC2ACF30D100A31403 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
 		CE343EEE2ACF30EB00A31403 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
 		CE343EF02ACF311200A31403 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		CE343EF32ACF317200A31403 /* UserBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBuilder.swift; sourceTree = "<group>"; };
+		CE343EF52ACF318C00A31403 /* UserProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProtocol.swift; sourceTree = "<group>"; };
+		CE343EF72ACF31A400A31403 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		CE343EF92ACF31C500A31403 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		CE343EFB2ACF31ED00A31403 /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
+		CE343EFD2ACF320900A31403 /* UserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +126,7 @@
 		CE343ECD2ACF2B5D00A31403 /* Sourses */ = {
 			isa = PBXGroup;
 			children = (
-				CE343EF22ACF313300A31403 /* New Group */,
+				CE343EF22ACF313300A31403 /* User */,
 				CE343EE52ACF305C00A31403 /* Detail */,
 				CE343EDC2ACF2F6300A31403 /* Extension */,
 				CE343ED92ACF2F3100A31403 /* Enum */,
@@ -166,11 +178,17 @@
 			path = Detail;
 			sourceTree = "<group>";
 		};
-		CE343EF22ACF313300A31403 /* New Group */ = {
+		CE343EF22ACF313300A31403 /* User */ = {
 			isa = PBXGroup;
 			children = (
+				CE343EF32ACF317200A31403 /* UserBuilder.swift */,
+				CE343EF52ACF318C00A31403 /* UserProtocol.swift */,
+				CE343EF72ACF31A400A31403 /* UserCell.swift */,
+				CE343EF92ACF31C500A31403 /* UserView.swift */,
+				CE343EFB2ACF31ED00A31403 /* UserPresenter.swift */,
+				CE343EFD2ACF320900A31403 /* UserRouter.swift */,
 			);
-			path = "New Group";
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,17 +268,23 @@
 				CE343EDE2ACF2F8500A31403 /* UiView+Extension.swift in Sources */,
 				CE343EF12ACF311200A31403 /* TextFieldCell.swift in Sources */,
 				CE343EE42ACF2FFE00A31403 /* Data+Extension.swift in Sources */,
+				CE343EFC2ACF31ED00A31403 /* UserPresenter.swift in Sources */,
 				CE343EB52ACF28ED00A31403 /* AppDelegate.swift in Sources */,
 				CE343ED62ACF2E6C00A31403 /* CoreDataProtocol.swift in Sources */,
 				CE343EE92ACF309B00A31403 /* DetailProtocol.swift in Sources */,
 				CE343ED82ACF2E9300A31403 /* CoreDataManager.swift in Sources */,
+				CE343EFA2ACF31C500A31403 /* UserView.swift in Sources */,
 				CE343EE02ACF2FB200A31403 /* UIViewController+Extension.swift in Sources */,
+				CE343EF42ACF317200A31403 /* UserBuilder.swift in Sources */,
 				CE343EED2ACF30D100A31403 /* DetailPresenter.swift in Sources */,
 				CE343EE72ACF307D00A31403 /* DetailBuilder.swift in Sources */,
 				CE343EB72ACF28ED00A31403 /* SceneDelegate.swift in Sources */,
 				CE343EEF2ACF30EB00A31403 /* DetailRouter.swift in Sources */,
+				CE343EFE2ACF320900A31403 /* UserRouter.swift in Sources */,
 				CE343EEB2ACF30B300A31403 /* DetailView.swift in Sources */,
+				CE343EF62ACF318C00A31403 /* UserProtocol.swift in Sources */,
 				CE343EE22ACF2FDF00A31403 /* UIStackView+Extension.swift in Sources */,
+				CE343EF82ACF31A400A31403 /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
