@@ -13,6 +13,7 @@
 		CE343EBF2ACF28ED00A31403 /* IOS10_HW22_OZMANYAN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE343EBD2ACF28ED00A31403 /* IOS10_HW22_OZMANYAN.xcdatamodeld */; };
 		CE343EC12ACF28EE00A31403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE343EC02ACF28EE00A31403 /* Assets.xcassets */; };
 		CE343EC42ACF28EE00A31403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE343EC22ACF28EE00A31403 /* LaunchScreen.storyboard */; };
+		CE343ED12ACF2D6F00A31403 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE343ECF2ACF2D6F00A31403 /* CoreData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CE343EC02ACF28EE00A31403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE343EC32ACF28EE00A31403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE343EC52ACF28EE00A31403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE343ED02ACF2D6F00A31403 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +88,18 @@
 		CE343ECD2ACF2B5D00A31403 /* Sourses */ = {
 			isa = PBXGroup;
 			children = (
+				CE343ECE2ACF2D2C00A31403 /* CoreData */,
 				CE343EB82ACF28ED00A31403 /* ViewController.swift */,
 			);
 			path = Sourses;
+			sourceTree = "<group>";
+		};
+		CE343ECE2ACF2D2C00A31403 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CE343ECF2ACF2D6F00A31403 /* CoreData.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 			files = (
 				CE343EBF2ACF28ED00A31403 /* IOS10_HW22_OZMANYAN.xcdatamodeld in Sources */,
 				CE343EB92ACF28ED00A31403 /* ViewController.swift in Sources */,
+				CE343ED12ACF2D6F00A31403 /* CoreData.xcdatamodeld in Sources */,
 				CE343EB52ACF28ED00A31403 /* AppDelegate.swift in Sources */,
 				CE343EB72ACF28ED00A31403 /* SceneDelegate.swift in Sources */,
 			);
@@ -379,6 +391,16 @@
 			);
 			currentVersion = CE343EBE2ACF28ED00A31403 /* IOS10_HW22_OZMANYAN.xcdatamodel */;
 			path = IOS10_HW22_OZMANYAN.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		CE343ECF2ACF2D6F00A31403 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE343ED02ACF2D6F00A31403 /* CoreData.xcdatamodel */,
+			);
+			currentVersion = CE343ED02ACF2D6F00A31403 /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
