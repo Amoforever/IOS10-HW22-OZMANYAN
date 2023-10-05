@@ -16,6 +16,11 @@
 		CE343ED12ACF2D6F00A31403 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE343ECF2ACF2D6F00A31403 /* CoreData.xcdatamodeld */; };
 		CE343ED62ACF2E6C00A31403 /* CoreDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343ED52ACF2E6C00A31403 /* CoreDataProtocol.swift */; };
 		CE343ED82ACF2E9300A31403 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343ED72ACF2E9300A31403 /* CoreDataManager.swift */; };
+		CE343EDB2ACF2F4500A31403 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EDA2ACF2F4500A31403 /* Enum.swift */; };
+		CE343EDE2ACF2F8500A31403 /* UiView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EDD2ACF2F8500A31403 /* UiView+Extension.swift */; };
+		CE343EE02ACF2FB200A31403 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EDF2ACF2FB200A31403 /* UIViewController+Extension.swift */; };
+		CE343EE22ACF2FDF00A31403 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EE12ACF2FDF00A31403 /* UIStackView+Extension.swift */; };
+		CE343EE42ACF2FFE00A31403 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EE32ACF2FFE00A31403 /* Data+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		CE343ED02ACF2D6F00A31403 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 		CE343ED52ACF2E6C00A31403 /* CoreDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProtocol.swift; sourceTree = "<group>"; };
 		CE343ED72ACF2E9300A31403 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		CE343EDA2ACF2F4500A31403 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		CE343EDD2ACF2F8500A31403 /* UiView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiView+Extension.swift"; sourceTree = "<group>"; };
+		CE343EDF2ACF2FB200A31403 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		CE343EE12ACF2FDF00A31403 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		CE343EE32ACF2FFE00A31403 /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +102,8 @@
 		CE343ECD2ACF2B5D00A31403 /* Sourses */ = {
 			isa = PBXGroup;
 			children = (
+				CE343EDC2ACF2F6300A31403 /* Extension */,
+				CE343ED92ACF2F3100A31403 /* Enum */,
 				CE343ECE2ACF2D2C00A31403 /* CoreData */,
 			);
 			path = Sourses;
@@ -106,6 +118,25 @@
 				CE343ED72ACF2E9300A31403 /* CoreDataManager.swift */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		CE343ED92ACF2F3100A31403 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				CE343EDA2ACF2F4500A31403 /* Enum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		CE343EDC2ACF2F6300A31403 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE343EDD2ACF2F8500A31403 /* UiView+Extension.swift */,
+				CE343EDF2ACF2FB200A31403 /* UIViewController+Extension.swift */,
+				CE343EE12ACF2FDF00A31403 /* UIStackView+Extension.swift */,
+				CE343EE32ACF2FFE00A31403 /* Data+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,11 +211,16 @@
 			files = (
 				CE343EBF2ACF28ED00A31403 /* IOS10_HW22_OZMANYAN.xcdatamodeld in Sources */,
 				CE343EB92ACF28ED00A31403 /* CoreDataStack.swift in Sources */,
+				CE343EDB2ACF2F4500A31403 /* Enum.swift in Sources */,
 				CE343ED12ACF2D6F00A31403 /* CoreData.xcdatamodeld in Sources */,
+				CE343EDE2ACF2F8500A31403 /* UiView+Extension.swift in Sources */,
+				CE343EE42ACF2FFE00A31403 /* Data+Extension.swift in Sources */,
 				CE343EB52ACF28ED00A31403 /* AppDelegate.swift in Sources */,
 				CE343ED62ACF2E6C00A31403 /* CoreDataProtocol.swift in Sources */,
 				CE343ED82ACF2E9300A31403 /* CoreDataManager.swift in Sources */,
+				CE343EE02ACF2FB200A31403 /* UIViewController+Extension.swift in Sources */,
 				CE343EB72ACF28ED00A31403 /* SceneDelegate.swift in Sources */,
+				CE343EE22ACF2FDF00A31403 /* UIStackView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
