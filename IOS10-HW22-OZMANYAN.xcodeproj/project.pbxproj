@@ -21,6 +21,12 @@
 		CE343EE02ACF2FB200A31403 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EDF2ACF2FB200A31403 /* UIViewController+Extension.swift */; };
 		CE343EE22ACF2FDF00A31403 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EE12ACF2FDF00A31403 /* UIStackView+Extension.swift */; };
 		CE343EE42ACF2FFE00A31403 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EE32ACF2FFE00A31403 /* Data+Extension.swift */; };
+		CE343EE72ACF307D00A31403 /* DetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EE62ACF307D00A31403 /* DetailBuilder.swift */; };
+		CE343EE92ACF309B00A31403 /* DetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EE82ACF309B00A31403 /* DetailProtocol.swift */; };
+		CE343EEB2ACF30B300A31403 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EEA2ACF30B300A31403 /* DetailView.swift */; };
+		CE343EED2ACF30D100A31403 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EEC2ACF30D100A31403 /* DetailPresenter.swift */; };
+		CE343EEF2ACF30EB00A31403 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EEE2ACF30EB00A31403 /* DetailRouter.swift */; };
+		CE343EF12ACF311200A31403 /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EF02ACF311200A31403 /* TextFieldCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +46,12 @@
 		CE343EDF2ACF2FB200A31403 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		CE343EE12ACF2FDF00A31403 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
 		CE343EE32ACF2FFE00A31403 /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		CE343EE62ACF307D00A31403 /* DetailBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBuilder.swift; sourceTree = "<group>"; };
+		CE343EE82ACF309B00A31403 /* DetailProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProtocol.swift; sourceTree = "<group>"; };
+		CE343EEA2ACF30B300A31403 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CE343EEC2ACF30D100A31403 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		CE343EEE2ACF30EB00A31403 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		CE343EF02ACF311200A31403 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +114,8 @@
 		CE343ECD2ACF2B5D00A31403 /* Sourses */ = {
 			isa = PBXGroup;
 			children = (
+				CE343EF22ACF313300A31403 /* New Group */,
+				CE343EE52ACF305C00A31403 /* Detail */,
 				CE343EDC2ACF2F6300A31403 /* Extension */,
 				CE343ED92ACF2F3100A31403 /* Enum */,
 				CE343ECE2ACF2D2C00A31403 /* CoreData */,
@@ -137,6 +151,26 @@
 				CE343EE32ACF2FFE00A31403 /* Data+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		CE343EE52ACF305C00A31403 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				CE343EE62ACF307D00A31403 /* DetailBuilder.swift */,
+				CE343EE82ACF309B00A31403 /* DetailProtocol.swift */,
+				CE343EEA2ACF30B300A31403 /* DetailView.swift */,
+				CE343EEC2ACF30D100A31403 /* DetailPresenter.swift */,
+				CE343EEE2ACF30EB00A31403 /* DetailRouter.swift */,
+				CE343EF02ACF311200A31403 /* TextFieldCell.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		CE343EF22ACF313300A31403 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,12 +248,18 @@
 				CE343EDB2ACF2F4500A31403 /* Enum.swift in Sources */,
 				CE343ED12ACF2D6F00A31403 /* CoreData.xcdatamodeld in Sources */,
 				CE343EDE2ACF2F8500A31403 /* UiView+Extension.swift in Sources */,
+				CE343EF12ACF311200A31403 /* TextFieldCell.swift in Sources */,
 				CE343EE42ACF2FFE00A31403 /* Data+Extension.swift in Sources */,
 				CE343EB52ACF28ED00A31403 /* AppDelegate.swift in Sources */,
 				CE343ED62ACF2E6C00A31403 /* CoreDataProtocol.swift in Sources */,
+				CE343EE92ACF309B00A31403 /* DetailProtocol.swift in Sources */,
 				CE343ED82ACF2E9300A31403 /* CoreDataManager.swift in Sources */,
 				CE343EE02ACF2FB200A31403 /* UIViewController+Extension.swift in Sources */,
+				CE343EED2ACF30D100A31403 /* DetailPresenter.swift in Sources */,
+				CE343EE72ACF307D00A31403 /* DetailBuilder.swift in Sources */,
 				CE343EB72ACF28ED00A31403 /* SceneDelegate.swift in Sources */,
+				CE343EEF2ACF30EB00A31403 /* DetailRouter.swift in Sources */,
+				CE343EEB2ACF30B300A31403 /* DetailView.swift in Sources */,
 				CE343EE22ACF2FDF00A31403 /* UIStackView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
