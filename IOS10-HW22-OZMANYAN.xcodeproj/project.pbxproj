@@ -9,23 +9,27 @@
 /* Begin PBXBuildFile section */
 		CE343EB52ACF28ED00A31403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EB42ACF28ED00A31403 /* AppDelegate.swift */; };
 		CE343EB72ACF28ED00A31403 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EB62ACF28ED00A31403 /* SceneDelegate.swift */; };
-		CE343EB92ACF28ED00A31403 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EB82ACF28ED00A31403 /* ViewController.swift */; };
+		CE343EB92ACF28ED00A31403 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EB82ACF28ED00A31403 /* CoreDataStack.swift */; };
 		CE343EBF2ACF28ED00A31403 /* IOS10_HW22_OZMANYAN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE343EBD2ACF28ED00A31403 /* IOS10_HW22_OZMANYAN.xcdatamodeld */; };
 		CE343EC12ACF28EE00A31403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE343EC02ACF28EE00A31403 /* Assets.xcassets */; };
 		CE343EC42ACF28EE00A31403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE343EC22ACF28EE00A31403 /* LaunchScreen.storyboard */; };
 		CE343ED12ACF2D6F00A31403 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE343ECF2ACF2D6F00A31403 /* CoreData.xcdatamodeld */; };
+		CE343ED62ACF2E6C00A31403 /* CoreDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343ED52ACF2E6C00A31403 /* CoreDataProtocol.swift */; };
+		CE343ED82ACF2E9300A31403 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343ED72ACF2E9300A31403 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE343EB12ACF28ED00A31403 /* IOS10-HW22-OZMANYAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS10-HW22-OZMANYAN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE343EB42ACF28ED00A31403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE343EB62ACF28ED00A31403 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE343EB82ACF28ED00A31403 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE343EB82ACF28ED00A31403 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		CE343EBE2ACF28ED00A31403 /* IOS10_HW22_OZMANYAN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOS10_HW22_OZMANYAN.xcdatamodel; sourceTree = "<group>"; };
 		CE343EC02ACF28EE00A31403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE343EC32ACF28EE00A31403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE343EC52ACF28EE00A31403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE343ED02ACF2D6F00A31403 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		CE343ED52ACF2E6C00A31403 /* CoreDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProtocol.swift; sourceTree = "<group>"; };
+		CE343ED72ACF2E9300A31403 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				CE343ECE2ACF2D2C00A31403 /* CoreData */,
-				CE343EB82ACF28ED00A31403 /* ViewController.swift */,
 			);
 			path = Sourses;
 			sourceTree = "<group>";
@@ -98,6 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				CE343ECF2ACF2D6F00A31403 /* CoreData.xcdatamodeld */,
+				CE343EB82ACF28ED00A31403 /* CoreDataStack.swift */,
+				CE343ED52ACF2E6C00A31403 /* CoreDataProtocol.swift */,
+				CE343ED72ACF2E9300A31403 /* CoreDataManager.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -173,9 +179,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE343EBF2ACF28ED00A31403 /* IOS10_HW22_OZMANYAN.xcdatamodeld in Sources */,
-				CE343EB92ACF28ED00A31403 /* ViewController.swift in Sources */,
+				CE343EB92ACF28ED00A31403 /* CoreDataStack.swift in Sources */,
 				CE343ED12ACF2D6F00A31403 /* CoreData.xcdatamodeld in Sources */,
 				CE343EB52ACF28ED00A31403 /* AppDelegate.swift in Sources */,
+				CE343ED62ACF2E6C00A31403 /* CoreDataProtocol.swift in Sources */,
+				CE343ED82ACF2E9300A31403 /* CoreDataManager.swift in Sources */,
 				CE343EB72ACF28ED00A31403 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
