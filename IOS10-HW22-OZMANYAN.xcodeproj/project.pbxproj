@@ -56,15 +56,39 @@
 		CE343EB32ACF28ED00A31403 /* IOS10-HW22-OZMANYAN */ = {
 			isa = PBXGroup;
 			children = (
-				CE343EB42ACF28ED00A31403 /* AppDelegate.swift */,
-				CE343EB62ACF28ED00A31403 /* SceneDelegate.swift */,
-				CE343EB82ACF28ED00A31403 /* ViewController.swift */,
-				CE343EC02ACF28EE00A31403 /* Assets.xcassets */,
-				CE343EC22ACF28EE00A31403 /* LaunchScreen.storyboard */,
-				CE343EC52ACF28EE00A31403 /* Info.plist */,
+				CE343ECD2ACF2B5D00A31403 /* Sourses */,
+				CE343ECC2ACF2B5B00A31403 /* App */,
+				CE343ECB2ACF2B5800A31403 /* Resources */,
 				CE343EBD2ACF28ED00A31403 /* IOS10_HW22_OZMANYAN.xcdatamodeld */,
 			);
 			path = "IOS10-HW22-OZMANYAN";
+			sourceTree = "<group>";
+		};
+		CE343ECB2ACF2B5800A31403 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE343EC52ACF28EE00A31403 /* Info.plist */,
+				CE343EC22ACF28EE00A31403 /* LaunchScreen.storyboard */,
+				CE343EC02ACF28EE00A31403 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE343ECC2ACF2B5B00A31403 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE343EB42ACF28ED00A31403 /* AppDelegate.swift */,
+				CE343EB62ACF28ED00A31403 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE343ECD2ACF2B5D00A31403 /* Sourses */ = {
+			isa = PBXGroup;
+			children = (
+				CE343EB82ACF28ED00A31403 /* ViewController.swift */,
+			);
+			path = Sourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "IOS10-HW22-OZMANYAN/Info.plist";
+				INFOPLIST_FILE = "IOS10-HW22-OZMANYAN/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -306,7 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "IOS10-HW22-OZMANYAN/Info.plist";
+				INFOPLIST_FILE = "IOS10-HW22-OZMANYAN/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
