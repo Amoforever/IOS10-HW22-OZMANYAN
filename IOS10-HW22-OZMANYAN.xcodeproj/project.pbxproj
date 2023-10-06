@@ -33,6 +33,7 @@
 		CE343EFA2ACF31C500A31403 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EF92ACF31C500A31403 /* UserView.swift */; };
 		CE343EFC2ACF31ED00A31403 /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EFB2ACF31ED00A31403 /* UserPresenter.swift */; };
 		CE343EFE2ACF320900A31403 /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343EFD2ACF320900A31403 /* UserRouter.swift */; };
+		CE343F012AD052B000A31403 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE343F002AD052B000A31403 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE343F012AD052B000A31403 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +209,9 @@
 			dependencies = (
 			);
 			name = "IOS10-HW22-OZMANYAN";
+			packageProductDependencies = (
+				CE343F002AD052B000A31403 /* SnapKit */,
+			);
 			productName = "IOS10-HW22-OZMANYAN";
 			productReference = CE343EB12ACF28ED00A31403 /* IOS10-HW22-OZMANYAN.app */;
 			productType = "com.apple.product-type.application";
@@ -235,6 +240,9 @@
 				Base,
 			);
 			mainGroup = CE343EA82ACF28ED00A31403;
+			packageReferences = (
+				CE343EFF2AD052B000A31403 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = CE343EB22ACF28ED00A31403 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -490,6 +498,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE343EFF2AD052B000A31403 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE343F002AD052B000A31403 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE343EFF2AD052B000A31403 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		CE343EBD2ACF28ED00A31403 /* IOS10_HW22_OZMANYAN.xcdatamodeld */ = {
